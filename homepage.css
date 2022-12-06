@@ -34,3 +34,42 @@ body{
 .navigatieBalk img {
     height: 50px;
 }
+
+.container {
+    margin: 0;
+}
+
+.heroBanner {
+    background-image: url("assets/deel-1/hero-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 500px;
+}
+
+.heroBanner h1, h3{
+    margin-top: 20%;
+}
+
+.heroBanner img {
+    width: 100%;
+}
+
+.cardList {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.card {
+    margin: 10px;
+    height: 100px;
+}
+
+.card img{
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 100%;
+}
