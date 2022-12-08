@@ -16,24 +16,69 @@ body{
     margin: 10px;
 }
 
-.navigatieBalk ul {
-    list-style: none;
-    padding: 10px;
-    margin: 0px;
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+}
+
+nav a {
+    height: 100%;
+    text-decoration: none;
+}
+
+.links {
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.navigatieBalk li {
+.links ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links ul li {
+    display: flex;
+    align-items: center;
     padding: 5px;
     font-size: small;
     font-weight: 500;
 }
 
-.navigatieBalk img {
-    height: 50px;
+.links img {
+    height: 100%
 }
+
+.rechts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rechts ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+    width: auto;
+}
+
+.rechts a {
+    height: auto;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: beige;
+}
+
 
 .container {
     margin: 0;
@@ -41,15 +86,33 @@ body{
 
 .heroBanner {
     background-image: url("assets/deel-1/hero-banner.png");
-    background-repeat: no-repeat;
+    height: 560px;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
-    color: white;
-    height: 500px;
+    padding-top: 35px;
 }
 
-.heroBanner h1, h3{
-    margin-top: 20%;
+.heroBanner h1 {
+    font-weight: 200;
+    color: white;
+}
+
+.heroBanner > p{
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.heroBanner a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 55px;
 }
 
 .heroBanner img {
@@ -58,18 +121,72 @@ body{
 
 .cardList {
     padding: 20px;
+    height: 100px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-content: center;
     max-width: 100%;
 }
 
-.card {
+.card a {
     margin: 10px;
-    height: 100px;
+    height: 100%;
+
+}
+.card a :hover {
+    border: 2px solid blue;
+    padding: 3px;
+    opacity: 100%;
+    transition: all 0.3s;
+    margin-top: -15px;
 }
 
 .card img{
-    border: 2px solid blue;
+    opacity: 50%;
     border-radius: 10px;
     height: 100%;
+}
+
+.farcry {
+    background-image: url(./assets/deel-1/far-cry-banner.png);
+    background-position: top;
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    padding: 70px ;
+}
+
+.farcry h1 {
+
+    font-weight: 100;
+}
+
+.farcry h1 span {
+    font-weight: 700;
+}
+
+.farcry a {
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.banner-2-cards {
+    padding: 100px 0px;
+    height: 200px;
+}
+
+.banner-2-cards a {
+    height: 100%;
+}
+
+.banner-2-cards a img {
+    height: 100%;
+}
+
+.console-container {
+    background-image: './assets/';
 }

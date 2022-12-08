@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open homepage.html",
-            "file": "c:\\Users\\robbe\\OneDrive\\PXL Graduaat Programmeren\\Web_Essentials\\Playstation\\homepage.html"
+            "file": "/home/robbevh/Documents/Playstation/homepage.html"
         }
     ]
 }
